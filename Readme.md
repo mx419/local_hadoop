@@ -62,11 +62,11 @@ the input file has already been put and renamed there, just use the commands bel
   $ python distance_weekday.py
   ```
 
- * Visualize 4:  
+  * Visualize 4:  
   ```sh
   $ python tipamount_weekday.py
   ```
- * Visualize 5:  
+  * Visualize 5:  
   ```sh
   $ python totalamount_weekday.py
   ```
