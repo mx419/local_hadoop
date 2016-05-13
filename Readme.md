@@ -53,12 +53,15 @@ Click [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/installing.html) 
 
 Instruction: Download this directory, cd to visualizeResults Directory,
 the input file has already been put and renamed there, just use the commands below:
+
   * Visualize 2:  
-   ```sh
+  
+  ```sh
   $ python num_trips_avg_distance.py
   ```
+  
   * Visualize 3:  
-   ```sh
+  ```sh
   $ python distance_weekday.py
   ```
 
@@ -66,6 +69,7 @@ the input file has already been put and renamed there, just use the commands bel
   ```sh
   $ python tipamount_weekday.py
   ```
+  
   * Visualize 5:  
   ```sh
   $ python totalamount_weekday.py
@@ -74,13 +78,17 @@ the input file has already been put and renamed there, just use the commands bel
 7.gmPlot Directory: the sample generated htmls file are under sampleOutput directory
   * Use map reduce under gmPlot/area and gmPlot/drop_off_area to do the calculation of count number for each square grid. The input for these map-reduces are the output of 1
   * cd to the gmplot_sample directory, put the output of gmPlot/drop_off_area's map reduce to the proper path stated in  gmplot_dropoff.py file, use command: 
+ 
   ```sh
   $ python gmplot_dropoff.py
   ```
+
   * cd to the gmplot_sample directory, put the output of gmPlot/area's map reduce to the proper path stated in gmplot_taxi.py file, use command: 
+
   ```sh
   $ python gmplot_taxi.py
   ```
+  
   * cd to the gmplot_sample directory, put the id_location_uber.p file and the uber data: uber-raw-data-janjune-15.csv to the proper path stated in gmplot_uber.py file, use command: 
   ```sh
   $ python gmplot_uber.py
